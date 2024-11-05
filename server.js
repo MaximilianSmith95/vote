@@ -3,7 +3,6 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 const app = express();
 
-const mongoose = require('mongoose');
 
 // Replace with your MongoDB Atlas connection string
 const dbURI = 'mongodb+srv://maxsmith1:<Crikey@95>@cluster0.33zxt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
