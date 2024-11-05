@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  #categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .category {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 200px;
+  }
+  
+  .subject {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+  }
+  
+  .vote-button {
+    color: green;
+    cursor: pointer;
+  }
+  
+  .votes {
+    margin-left: 10px;
+    font-weight: bold;
+  }
+  
